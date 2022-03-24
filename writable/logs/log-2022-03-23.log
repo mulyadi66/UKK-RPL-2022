@@ -1,0 +1,46 @@
+CRITICAL - 2022-03-23 10:50:39 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, string returned
+#0 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('cek out', 'update')
+#1 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Model.php(651): CodeIgniter\BaseModel->update(Array, 'cek out')
+#2 C:\CI4\Hotel_scada\app\Controllers\ReservasiController.php(44): CodeIgniter\Model->update('status', 'cek out')
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ReservasiController->out('7')
+#4 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReservasiController))
+#5 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#8 {main}
+CRITICAL - 2022-03-23 10:52:42 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, string returned
+#0 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('cek out', 'update')
+#1 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Model.php(651): CodeIgniter\BaseModel->update(Array, 'cek out')
+#2 C:\CI4\Hotel_scada\app\Controllers\ReservasiController.php(45): CodeIgniter\Model->update('status', 'cek out')
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ReservasiController->out('7')
+#4 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReservasiController))
+#5 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#8 {main}
+CRITICAL - 2022-03-23 10:58:17 --> There is no data to update.
+#0 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\CI4\Hotel_scada\app\Controllers\ReservasiController.php(45): CodeIgniter\Model->update(Array, Array)
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ReservasiController->out('7')
+#4 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReservasiController))
+#5 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#8 {main}
+CRITICAL - 2022-03-23 11:01:52 --> Array to string conversion
+#0 C:\CI4\Hotel_scada\app\Controllers\ReservasiController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\CI4\\Hotel_sc...', 45, Array)
+#1 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ReservasiController->out('7')
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReservasiController))
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#6 {main}
+CRITICAL - 2022-03-23 11:04:25 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$cek in
+#0 C:\CI4\Hotel_scada\app\Controllers\ReservasiController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\CI4\\Hotel_sc...', 31, Array)
+#1 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ReservasiController->in('7')
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReservasiController))
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#6 {main}

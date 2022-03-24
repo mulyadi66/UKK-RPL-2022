@@ -1,0 +1,151 @@
+CRITICAL - 2022-02-13 20:18:33 --> Undefined variable: data
+#0 C:\CI4\Hotel_scada\app\Controllers\PetugasController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\CI4\\Hotel_sc...', 127, Array)
+#1 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\PetugasController->updateKamar()
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PetugasController))
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#6 {main}
+CRITICAL - 2022-02-13 20:21:10 --> Undefined variable: data
+#0 C:\CI4\Hotel_scada\app\Controllers\PetugasController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\CI4\\Hotel_sc...', 127, Array)
+#1 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\PetugasController->updateKamar()
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PetugasController))
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#6 {main}
+CRITICAL - 2022-02-13 20:37:56 --> The original file is not a valid file.
+#0 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\CI4\Hotel_scada\app\Controllers\PetugasController.php(111): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\CI4\\Hotel_sc...')
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\PetugasController->updateKamar()
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PetugasController))
+#4 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#7 {main}
+CRITICAL - 2022-02-13 21:06:51 --> The original file is not a valid file.
+#0 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\CI4\Hotel_scada\app\Controllers\PetugasController.php(111): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\CI4\\Hotel_sc...')
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\PetugasController->updateKamar()
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PetugasController))
+#4 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#7 {main}
+CRITICAL - 2022-02-13 21:21:16 --> The original file is not a valid file.
+#0 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\CI4\Hotel_scada\app\Controllers\PetugasController.php(114): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\CI4\\Hotel_sc...')
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\PetugasController->updateKamar()
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PetugasController))
+#4 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#7 {main}
+CRITICAL - 2022-02-13 21:24:52 --> The original file is not a valid file.
+#0 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\CI4\Hotel_scada\app\Controllers\PetugasController.php(114): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\CI4\\Hotel_sc...')
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\PetugasController->updateKamar()
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PetugasController))
+#4 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#7 {main}
+CRITICAL - 2022-02-13 21:25:43 --> The original file is not a valid file.
+#0 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\CI4\Hotel_scada\app\Controllers\PetugasController.php(111): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\CI4\\Hotel_sc...')
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\PetugasController->updateKamar()
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PetugasController))
+#4 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#7 {main}
+CRITICAL - 2022-02-13 21:33:20 --> The original file is not a valid file.
+#0 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\CI4\Hotel_scada\app\Controllers\PetugasController.php(111): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\CI4\\Hotel_sc...')
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\PetugasController->updateKamar()
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PetugasController))
+#4 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#7 {main}
+CRITICAL - 2022-02-13 21:41:35 --> The original file is not a valid file.
+#0 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\CI4\Hotel_scada\app\Controllers\PetugasController.php(111): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\CI4\\Hotel_sc...')
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\PetugasController->updateKamar()
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PetugasController))
+#4 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#7 {main}
+CRITICAL - 2022-02-13 21:42:04 --> The original file is not a valid file.
+#0 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\CI4\Hotel_scada\app\Controllers\PetugasController.php(111): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\CI4\\Hotel_sc...')
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\PetugasController->updateKamar()
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PetugasController))
+#4 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#7 {main}
+CRITICAL - 2022-02-13 21:42:56 --> The original file is not a valid file.
+#0 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\CI4\Hotel_scada\app\Controllers\PetugasController.php(111): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\CI4\\Hotel_sc...')
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\PetugasController->updateKamar()
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PetugasController))
+#4 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#7 {main}
+CRITICAL - 2022-02-13 21:43:58 --> The original file is not a valid file.
+#0 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\CI4\Hotel_scada\app\Controllers\PetugasController.php(111): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\CI4\\Hotel_sc...')
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\PetugasController->updateKamar()
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PetugasController))
+#4 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#7 {main}
+CRITICAL - 2022-02-13 21:45:26 --> The original file is not a valid file.
+#0 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\CI4\Hotel_scada\app\Controllers\PetugasController.php(111): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\CI4\\Hotel_sc...')
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\PetugasController->updateKamar()
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PetugasController))
+#4 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#7 {main}
+CRITICAL - 2022-02-13 21:46:11 --> The original file is not a valid file.
+#0 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\CI4\Hotel_scada\app\Controllers\PetugasController.php(111): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\CI4\\Hotel_sc...')
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\PetugasController->updateKamar()
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PetugasController))
+#4 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#7 {main}
+CRITICAL - 2022-02-13 21:46:44 --> The original file is not a valid file.
+#0 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\CI4\Hotel_scada\app\Controllers\PetugasController.php(111): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\CI4\\Hotel_sc...')
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\PetugasController->updateKamar()
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PetugasController))
+#4 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#7 {main}
+CRITICAL - 2022-02-13 21:47:27 --> The original file is not a valid file.
+#0 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\CI4\Hotel_scada\app\Controllers\PetugasController.php(111): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\CI4\\Hotel_sc...')
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\PetugasController->updateKamar()
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PetugasController))
+#4 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#7 {main}
+CRITICAL - 2022-02-13 21:48:20 --> The original file is not a valid file.
+#0 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\CI4\Hotel_scada\app\Controllers\PetugasController.php(111): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\CI4\\Hotel_sc...')
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\PetugasController->updateKamar()
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PetugasController))
+#4 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#7 {main}

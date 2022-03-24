@@ -1,0 +1,179 @@
+ERROR - 2022-03-18 07:29:10 --> Column 'tgl_cek_out' cannot be null
+CRITICAL - 2022-03-18 07:29:10 --> Column 'tgl_cek_out' cannot be null
+#0 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\CI4\Hotel_scada\app\Controllers\Home.php(53): CodeIgniter\BaseModel->save(Array)
+#9 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->reservasi()
+#10 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#14 {main}
+ERROR - 2022-03-18 07:33:43 --> Duplicate entry '2' for key 'id_kamar'
+CRITICAL - 2022-03-18 07:33:43 --> Duplicate entry '2' for key 'id_kamar'
+#0 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\CI4\Hotel_scada\app\Controllers\Home.php(53): CodeIgniter\BaseModel->save(Array)
+#9 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->reservasi()
+#10 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#14 {main}
+ERROR - 2022-03-18 08:07:29 --> Duplicate entry '4' for key 'id_kamar'
+CRITICAL - 2022-03-18 08:07:29 --> Duplicate entry '4' for key 'id_kamar'
+#0 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\CI4\Hotel_scada\app\Controllers\Home.php(53): CodeIgniter\BaseModel->save(Array)
+#9 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->reservasi()
+#10 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#14 {main}
+CRITICAL - 2022-03-18 09:42:55 --> Invalid file: App\View\pagers\pagination.php
+#0 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\View\\pagers...')
+#1 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Pager\Pager.php(125): CodeIgniter\View\View->render('App\\View\\pagers...')
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Pager\Pager.php(83): CodeIgniter\Pager\Pager->displayLinks('tbl_reservasi', 'pagination')
+#3 C:\CI4\Hotel_scada\app\Views\Reservasi\tampil.php(40): CodeIgniter\Pager\Pager->links('tbl_reservasi', 'pagination')
+#4 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\CI4\\Hotel_sc...')
+#5 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Reservasi/tampi...', Array, true)
+#7 C:\CI4\Hotel_scada\app\Controllers\ReservasiController.php(15): view('Reservasi/tampi...', Array)
+#8 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\ReservasiController->index()
+#9 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReservasiController))
+#10 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#13 {main}
+CRITICAL - 2022-03-18 10:58:10 --> Undefined variable: resepsionis
+#0 C:\CI4\Hotel_scada\app\Controllers\ReservasiController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\CI4\\Hotel_sc...', 22, Array)
+#1 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\ReservasiController->index()
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReservasiController))
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#6 {main}
+CRITICAL - 2022-03-18 11:06:10 --> Call to undefined method App\Models\Reservasi::tabel
+#0 C:\CI4\Hotel_scada\app\Models\Reservasi.php(20): CodeIgniter\Model->__call('tabel', Array)
+#1 C:\CI4\Hotel_scada\app\Controllers\ReservasiController.php(16): App\Models\Reservasi->search('adul')
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\ReservasiController->index()
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReservasiController))
+#4 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#7 {main}
+CRITICAL - 2022-03-18 11:10:05 --> Call to undefined method App\Models\Reservasi::tabel
+#0 C:\CI4\Hotel_scada\app\Models\Reservasi.php(20): CodeIgniter\Model->__call('tabel', Array)
+#1 C:\CI4\Hotel_scada\app\Controllers\ReservasiController.php(16): App\Models\Reservasi->search('adul')
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\ReservasiController->index()
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReservasiController))
+#4 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#7 {main}
+CRITICAL - 2022-03-18 11:13:29 --> Call to undefined method App\Models\Reservasi::tabel
+#0 C:\CI4\Hotel_scada\app\Models\Reservasi.php(21): CodeIgniter\Model->__call('tabel', Array)
+#1 C:\CI4\Hotel_scada\app\Controllers\ReservasiController.php(16): App\Models\Reservasi->search('adul')
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\ReservasiController->index()
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReservasiController))
+#4 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#7 {main}
+CRITICAL - 2022-03-18 11:17:48 --> Undefined variable: builder
+#0 C:\CI4\Hotel_scada\app\Models\Reservasi.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\CI4\\Hotel_sc...', 22, Array)
+#1 C:\CI4\Hotel_scada\app\Controllers\ReservasiController.php(16): App\Models\Reservasi->search('adul')
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\ReservasiController->index()
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReservasiController))
+#4 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#7 {main}
+CRITICAL - 2022-03-18 11:19:29 --> Call to undefined method App\Models\Reservasi::tabel
+#0 C:\CI4\Hotel_scada\app\Models\Reservasi.php(21): CodeIgniter\Model->__call('tabel', Array)
+#1 C:\CI4\Hotel_scada\app\Controllers\ReservasiController.php(16): App\Models\Reservasi->search('adul')
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\ReservasiController->index()
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReservasiController))
+#4 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#7 {main}
+CRITICAL - 2022-03-18 11:20:32 --> Undefined variable: datatamu
+#0 C:\CI4\Hotel_scada\app\Controllers\ReservasiController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\CI4\\Hotel_sc...', 23, Array)
+#1 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\ReservasiController->index()
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReservasiController))
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#6 {main}
+CRITICAL - 2022-03-18 11:20:37 --> Undefined variable: datatamu
+#0 C:\CI4\Hotel_scada\app\Controllers\ReservasiController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\CI4\\Hotel_sc...', 23, Array)
+#1 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\ReservasiController->index()
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReservasiController))
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#6 {main}
+CRITICAL - 2022-03-18 11:20:39 --> Undefined variable: datatamu
+#0 C:\CI4\Hotel_scada\app\Controllers\ReservasiController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\CI4\\Hotel_sc...', 23, Array)
+#1 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\ReservasiController->index()
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReservasiController))
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#6 {main}
+CRITICAL - 2022-03-18 11:22:55 --> Call to undefined method App\Models\Reservasi::tabel
+#0 C:\CI4\Hotel_scada\app\Models\Reservasi.php(21): CodeIgniter\Model->__call('tabel', Array)
+#1 C:\CI4\Hotel_scada\app\Controllers\ReservasiController.php(16): App\Models\Reservasi->search('adul')
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\ReservasiController->index()
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReservasiController))
+#4 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#7 {main}
+CRITICAL - 2022-03-18 11:25:00 --> Call to undefined method App\Models\Reservasi::tabel
+#0 C:\CI4\Hotel_scada\app\Models\Reservasi.php(21): CodeIgniter\Model->__call('tabel', Array)
+#1 C:\CI4\Hotel_scada\app\Controllers\ReservasiController.php(16): App\Models\Reservasi->search('adul')
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\ReservasiController->index()
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReservasiController))
+#4 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#7 {main}
+CRITICAL - 2022-03-18 11:29:14 --> Call to undefined method App\Models\Reservasi::tabel
+#0 C:\CI4\Hotel_scada\app\Models\Reservasi.php(20): CodeIgniter\Model->__call('tabel', Array)
+#1 C:\CI4\Hotel_scada\app\Controllers\ReservasiController.php(16): App\Models\Reservasi->search('adul')
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\ReservasiController->index()
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReservasiController))
+#4 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#7 {main}
+CRITICAL - 2022-03-18 11:30:21 --> Undefined variable: tabel
+#0 C:\CI4\Hotel_scada\app\Models\Reservasi.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\CI4\\Hotel_sc...', 20, Array)
+#1 C:\CI4\Hotel_scada\app\Controllers\ReservasiController.php(16): App\Models\Reservasi->search('adul')
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\ReservasiController->index()
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReservasiController))
+#4 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#7 {main}

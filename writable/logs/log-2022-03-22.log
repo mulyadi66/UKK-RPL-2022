@@ -1,0 +1,128 @@
+ERROR - 2022-03-22 20:17:27 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-03-22 20:17:27 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\CI4\Hotel_scada\app\Controllers\Home.php(57): CodeIgniter\BaseModel->findAll()
+#5 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->reservasi()
+#6 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#10 {main}
+CRITICAL - 2022-03-22 20:17:28 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\CI4\Hotel_scada\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\CI4\\Hotel_sc...', 96, Array)
+#1 C:\CI4\Hotel_scada\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Home), true)
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Debug\Exceptions.php(234): include('C:\\CI4\\Hotel_sc...')
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-03-22 20:17:57 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-03-22 20:17:57 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\CI4\Hotel_scada\app\Controllers\Home.php(57): CodeIgniter\BaseModel->findAll()
+#5 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->reservasi()
+#6 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#10 {main}
+CRITICAL - 2022-03-22 20:17:58 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\CI4\Hotel_scada\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\CI4\\Hotel_sc...', 96, Array)
+#1 C:\CI4\Hotel_scada\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Home), true)
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Debug\Exceptions.php(234): include('C:\\CI4\\Hotel_sc...')
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-03-22 20:18:35 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-03-22 20:18:35 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\CI4\Hotel_scada\app\Controllers\Home.php(19): CodeIgniter\BaseModel->findAll()
+#5 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->kamar()
+#6 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#10 {main}
+CRITICAL - 2022-03-22 20:18:35 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\CI4\Hotel_scada\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\CI4\\Hotel_sc...', 96, Array)
+#1 C:\CI4\Hotel_scada\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Home), true)
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Debug\Exceptions.php(234): include('C:\\CI4\\Hotel_sc...')
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-03-22 20:19:51 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-03-22 20:19:51 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\CI4\Hotel_scada\app\Controllers\Home.php(19): CodeIgniter\BaseModel->findAll()
+#5 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->kamar()
+#6 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#10 {main}
+CRITICAL - 2022-03-22 20:19:51 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\CI4\Hotel_scada\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\CI4\\Hotel_sc...', 96, Array)
+#1 C:\CI4\Hotel_scada\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Home), true)
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Debug\Exceptions.php(234): include('C:\\CI4\\Hotel_sc...')
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-22 22:46:29 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$cek out
+#0 C:\CI4\Hotel_scada\app\Controllers\ReservasiController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\CI4\\Hotel_sc...', 48, Array)
+#1 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ReservasiController->out('7')
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReservasiController))
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#6 {main}
+CRITICAL - 2022-03-22 22:48:42 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$cek out
+#0 C:\CI4\Hotel_scada\app\Controllers\ReservasiController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\CI4\\Hotel_sc...', 48, Array)
+#1 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ReservasiController->out('7')
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReservasiController))
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#6 {main}

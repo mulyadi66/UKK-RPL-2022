@@ -1,0 +1,17 @@
+CRITICAL - 2022-02-08 20:16:40 --> Invalid file: tambah-kamar.php
+#0 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tambah-kamar.ph...')
+#1 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('tambah-kamar', Array, true)
+#2 C:\CI4\Hotel_scada\app\Controllers\PetugasController.php(58): view('tambah-kamar')
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\PetugasController->tambahKamar()
+#4 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PetugasController))
+#5 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#8 {main}
+CRITICAL - 2022-02-08 21:00:39 --> Call to a member function move() on null
+#0 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\PetugasController->simpanKamar()
+#1 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PetugasController))
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#5 {main}

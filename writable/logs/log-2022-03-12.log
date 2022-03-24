@@ -1,0 +1,172 @@
+CRITICAL - 2022-03-12 07:01:59 --> Undefined index: id_fasilitas
+#0 C:\CI4\Hotel_scada\app\Views\Kamar\tambah-kamar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\CI4\\Hotel_sc...', 16, Array)
+#1 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\CI4\\Hotel_sc...')
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Kamar/tambah-ka...', Array, true)
+#4 C:\CI4\Hotel_scada\app\Controllers\KamarController.php(39): view('Kamar/tambah-ka...', Array)
+#5 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\KamarController->tambahKamar()
+#6 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KamarController))
+#7 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#10 {main}
+CRITICAL - 2022-03-12 07:02:17 --> Undefined index: id_fasilitas
+#0 C:\CI4\Hotel_scada\app\Views\Kamar\tambah-kamar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\CI4\\Hotel_sc...', 16, Array)
+#1 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\CI4\\Hotel_sc...')
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Kamar/tambah-ka...', Array, true)
+#4 C:\CI4\Hotel_scada\app\Controllers\KamarController.php(39): view('Kamar/tambah-ka...', Array)
+#5 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\KamarController->tambahKamar()
+#6 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KamarController))
+#7 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#10 {main}
+CRITICAL - 2022-03-12 07:05:20 --> Undefined index: id_fasilitas
+#0 C:\CI4\Hotel_scada\app\Views\Kamar\edit-kamar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\CI4\\Hotel_sc...', 16, Array)
+#1 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\CI4\\Hotel_sc...')
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Kamar/edit-kama...', Array, true)
+#4 C:\CI4\Hotel_scada\app\Controllers\KamarController.php(77): view('Kamar/edit-kama...', Array)
+#5 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\KamarController->editKamar('8')
+#6 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KamarController))
+#7 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#10 {main}
+ERROR - 2022-03-12 07:19:38 --> Not unique table/alias: 'tbl_fasilitas_kamar'
+CRITICAL - 2022-03-12 07:19:38 --> Not unique table/alias: 'tbl_fasilitas_kamar'
+#0 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\CI4\Hotel_scada\app\Controllers\Home.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->kamar()
+#8 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#12 {main}
+ERROR - 2022-03-12 09:58:42 --> Unknown column 'id_kamar' in 'where clause'
+CRITICAL - 2022-03-12 09:58:42 --> Unknown column 'id_kamar' in 'where clause'
+#0 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\CI4\Hotel_scada\app\Controllers\FasilitasKamarController.php(66): CodeIgniter\BaseModel->findAll()
+#7 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\FasilitasKamarController->edit('5')
+#8 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FasilitasKamarController))
+#9 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#12 {main}
+CRITICAL - 2022-03-12 09:59:21 --> Invalid file: Fasilitas_Kamar/edit.php
+#0 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Fasilitas_Kamar...')
+#1 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Fasilitas_Kamar...', Array, true)
+#2 C:\CI4\Hotel_scada\app\Controllers\FasilitasKamarController.php(67): view('Fasilitas_Kamar...', Array)
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\FasilitasKamarController->edit('5')
+#4 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FasilitasKamarController))
+#5 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#8 {main}
+CRITICAL - 2022-03-12 21:02:41 --> Undefined index: Rptarif
+#0 C:\CI4\Hotel_scada\app\Views\Kamar\tampil-kamar.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\CI4\\Hotel_sc...', 31, Array)
+#1 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\CI4\\Hotel_sc...')
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Kamar/tampil-ka...', Array, true)
+#4 C:\CI4\Hotel_scada\app\Controllers\KamarController.php(25): view('Kamar/tampil-ka...', Array)
+#5 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\KamarController->tampilKamar()
+#6 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KamarController))
+#7 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#10 {main}
+CRITICAL - 2022-03-12 21:19:37 --> Undefined variable: ListKamar
+#0 C:\CI4\Hotel_scada\app\Views\Fasilitas-Hotel\tampil.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\CI4\\Hotel_sc...', 26, Array)
+#1 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\CI4\\Hotel_sc...')
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Fasilitas-Hotel...', Array, true)
+#4 C:\CI4\Hotel_scada\app\Controllers\FasilitasHotelController.php(21): view('Fasilitas-Hotel...', Array)
+#5 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\FasilitasHotelController->index()
+#6 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FasilitasHotelController))
+#7 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#10 {main}
+CRITICAL - 2022-03-12 21:19:54 --> Undefined index: fasilitas
+#0 C:\CI4\Hotel_scada\app\Views\Fasilitas-Hotel\tampil.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\CI4\\Hotel_sc...', 30, Array)
+#1 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\CI4\\Hotel_sc...')
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Fasilitas-Hotel...', Array, true)
+#4 C:\CI4\Hotel_scada\app\Controllers\FasilitasHotelController.php(21): view('Fasilitas-Hotel...', Array)
+#5 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\FasilitasHotelController->index()
+#6 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FasilitasHotelController))
+#7 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#10 {main}
+CRITICAL - 2022-03-12 22:22:10 --> Undefined offset: 0
+#0 C:\CI4\Hotel_scada\app\Views\Fasilitas-Hotel\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\CI4\\Hotel_sc...', 8, Array)
+#1 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\CI4\\Hotel_sc...')
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Fasilitas-Hotel...', Array, true)
+#4 C:\CI4\Hotel_scada\app\Controllers\FasilitasHotelController.php(80): view('Fasilitas-Hotel...', Array)
+#5 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\FasilitasHotelController->edit('8')
+#6 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FasilitasHotelController))
+#7 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#10 {main}
+CRITICAL - 2022-03-12 22:24:17 --> Undefined variable: data
+#0 C:\CI4\Hotel_scada\app\Controllers\FasilitasHotelController.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\CI4\\Hotel_sc...', 80, Array)
+#1 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\FasilitasHotelController->edit()
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FasilitasHotelController))
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#6 {main}
+CRITICAL - 2022-03-12 22:33:21 --> Undefined variable: syarat
+#0 C:\CI4\Hotel_scada\app\Controllers\FasilitasHotelController.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\CI4\\Hotel_sc...', 72, Array)
+#1 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\FasilitasHotelController->edit()
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FasilitasHotelController))
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#6 {main}
+CRITICAL - 2022-03-12 22:51:29 --> unlink(gambar5f081b41cc76c.jpeg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(gambar5f...', 'C:\\CI4\\Hotel_sc...', 61, Array)
+#1 C:\CI4\Hotel_scada\app\Controllers\FasilitasHotelController.php(61): unlink('gambar5f081b41c...')
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\FasilitasHotelController->edit()
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FasilitasHotelController))
+#4 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#7 {main}
+CRITICAL - 2022-03-12 22:58:22 --> Undefined variable: data
+#0 C:\CI4\Hotel_scada\app\Controllers\FasilitasKamarController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\CI4\\Hotel_sc...', 16, Array)
+#1 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\FasilitasKamarController->tambah()
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FasilitasKamarController))
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#6 {main}
+CRITICAL - 2022-03-12 23:02:33 --> Call to a member function move() on null
+#0 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\FasilitasKamarController->tambah()
+#1 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FasilitasKamarController))
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#5 {main}
+CRITICAL - 2022-03-12 23:15:34 --> Undefined variable: foto
+#0 C:\CI4\Hotel_scada\app\Controllers\FasilitasKamarController.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\CI4\\Hotel_sc...', 47, Array)
+#1 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\FasilitasKamarController->edit()
+#2 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FasilitasKamarController))
+#3 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\CI4\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\CI4\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\CI4\\Hotel_sc...')
+#6 {main}

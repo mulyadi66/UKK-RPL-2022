@@ -1,0 +1,7 @@
+CRITICAL - 2022-02-06 22:57:49 --> Class 'App\Controllers\Petugas' not found
+#0 C:\Users\RPL\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\PetugasController->login()
+#1 C:\Users\RPL\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PetugasController))
+#2 C:\Users\RPL\Hotel_scada\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\RPL\Hotel_scada\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\RPL\Hotel_scada\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\RPL\\Ho...')
+#5 {main}
