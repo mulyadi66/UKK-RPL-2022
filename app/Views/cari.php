@@ -28,7 +28,7 @@ $htmlData .='<td>'.$row['tgl_cek_in'].'</td>';
 $htmlData .='<td>'.$row['tgl_cek_out'].'</td>';
 $htmlData .='<td>'.$row['jumlah_kamar_dipensan'].'</td>';
 $htmlData .='<td class="text-center">';
-$htmlData .='<a href="/reservasi/in/'.$row['id_reservasi'].'" class="btn btn-info btn-sm mr-1">Print</a>';
+$htmlData .='<a href="/inv/'.$row['id_reservasi'].'" class="btn btn-info btn-sm mr-1">Print</a>';
 $htmlData .='</td>';
 $htmlData .='</tr>';
 echo $htmlData;
