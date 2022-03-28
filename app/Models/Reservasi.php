@@ -18,8 +18,8 @@ class Reservasi extends Model
 
     public function search($keyword){
     return $this->table('tbl_reservasi')->like('nama_tamu', $keyword)->orLike('tgl_cek_in', $keyword);
-    
     }
+    
 
     // Dates
     protected $useTimestamps = false;

@@ -14,7 +14,7 @@
                 <select class="form-control" name="txtInputTipeKamar" required>
                 <option value="">No Selected</option>
                 <?php foreach($ListKamar as $row):?>
-                <option value="<?php echo $row['id_kamar'];?>"><?php echo $row['tipe_kamar'];?></option>
+                <option value="<?php echo $row['id_kamar'];?>"><?php echo $row['tipe_kamar'];?> Rp.<?php echo $row['tarif'];?> / per malam</option>
                 <?php endforeach;?>
                 </select>
               </div>
@@ -69,7 +69,7 @@
 
             <div class="row mb-4">
               <div class="col-md-6 form-group">
-              <button class="btn btn-primary text-white py-3 px-5 font-weight-bold">Simpan</button>
+              <button class="btn btn-primary text-white py-3 px-5 font-weight-bold">Pesan</button>
               </div>
             </div>
               </form>

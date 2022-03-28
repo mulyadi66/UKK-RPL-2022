@@ -32,11 +32,15 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
+$routes->post('/', 'Home::index');
 $routes->get('/kamar', 'Home::kamar');
 $routes->get('/fasilitas', 'Home::fasilitas');
 $routes->get('/reservasi', 'Home::reservasi');
 $routes->post('/reservasi', 'Home::reservasi');
 $routes->get('/reservasi/print', 'Home::print');
+$routes->get('/inv/(:num)', 'Home::invoice/$1');
+$routes->get('/cek', 'Home::cari');
+$routes->post('/cek', 'Home::cari');
 
 $routes->get('/login', 'PetugasController::index');
 $routes->post('/auth', 'PetugasController::login');

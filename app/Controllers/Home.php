@@ -3,17 +3,29 @@
 namespace App\Controllers;
 
 use App\Controllers\BaseController;
+use TCPDF;
 
-class Home extends BaseController
-{
-    public function index()
-    {
+class Home extends BaseController{
+    public function index(){
+        // helper(['form']);
+        // $validasi=['keyword'=>'requred'];
+        // if($this->validate($validasi)){
+        //     $data['hasil_cari']=$this->cari();
+        // }
+
         return view ('hotel');
     }
-    public function about()
-    {
-        return view ('about');
+
+    public function cari(){
+        $keyword = $this->request->getVar('keyword');
+        $datatamu = $this->reservasi->where('email_pemesan', $keyword)->findAll();
+        $data = [
+            'title'=> 'Berikut ini daftar Tamu yang sudah terdaftar dalam database.',
+            'tamu' => $datatamu
+            ] ;
+        return view ('cari', $data);
     }
+
     public function kamar(){
         $this->kamar->join('tbl_fasilitas_kamar', 'tbl_fasilitas_kamar.id_fasilitas=tbl_kamar.id_fasilitas' );
         $data['ListKamar'] = $this->kamar->findAll();
@@ -51,11 +63,36 @@ class Home extends BaseController
 
             ];
             $this->reservasi->save($data);
-            return redirect()->to(site_url(''))->with('berhasil', 'Berasil pesan Kamar');
+            return redirect()->to(site_url('/inv/'.$this->reservasi->getInsertID()))->with('berhasil', 'Berasil pesan Kamar');
         }
         $this->kamar->join('tbl_fasilitas_kamar', 'tbl_fasilitas_kamar.id_fasilitas=tbl_kamar.id_fasilitas' );
         $data['ListKamar'] = $this->kamar->findAll();
         return view ('reservasi', $data);
     }
-    
+
+    public function invoice($idreservasi){
+        $this->reservasi->join('tbl_kamar', 'tbl_kamar.id_kamar=tbl_reservasi.id_kamar');
+        $this->reservasi->join('tbl_fasilitas_kamar','tbl_fasilitas_kamar.id_fasilitas=tbl_kamar.id_fasilitas');
+		$data['transaksi'] = $this->reservasi->find($idreservasi);
+		$html = view('invoice',$data);
+		$pdf = new TCPDF('L', PDF_UNIT, 'A5', true, 'UTF-8', false);
+
+		$pdf->SetCreator(PDF_CREATOR);
+		$pdf->SetAuthor('Dea Venditama');
+		$pdf->SetTitle('Invoice');
+		$pdf->SetSubject('Invoice');
+
+		$pdf->setPrintHeader(false);
+		$pdf->setPrintFooter(false);
+
+		$pdf->addPage();
+
+		// output the HTML content
+		$pdf->writeHTML($html, true, false, true, false, '');
+		//line ini penting
+		$this->response->setContentType('application/pdf');
+		//Close and output PDF document
+		$pdf->Output('invoice.pdf', 'I');
+		
+	}    
 }

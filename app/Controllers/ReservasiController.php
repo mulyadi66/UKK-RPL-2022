@@ -11,7 +11,6 @@ class ReservasiController extends BaseController
         $currentPage = $this->request->getVar('page_reservasi') ? $this->request->getVar('page_reservasi') :1; 
 
         //d($this->request->getVar('keyword'));
-
         $keyword = $this->request->getVar('keyword');
         if($keyword){
             $datatamu = $this->reservasi->search($keyword);
@@ -27,17 +26,17 @@ class ReservasiController extends BaseController
             ] ;
         return view('Reservasi/tampil', $data);
     }
+
     public function in($idreservasi){
         $datanya = ['status' => ['cek in']];
         $this->reservasi->update($idreservasi, $datanya);
-    return redirect()->to(site_url('/reservasi/petugas'))->with('berhasil','Data berhasil diupdate');
+        return redirect()->to(site_url('/reservasi/petugas'))->with('berhasil','Data berhasil diupdate');
     }
 
     public function out($idreservasi){
         $datanya = ['status' => ['cek out']];
         $this->reservasi->update($idreservasi, $datanya);
-    return redirect()->to(site_url('/reservasi/petugas'))->with('berhasil','Data berhasil diupdate');
-
+        return redirect()->to(site_url('/reservasi/petugas'))->with('berhasil','Data berhasil diupdate');
     }
 
 }
