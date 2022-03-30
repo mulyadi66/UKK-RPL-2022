@@ -20,9 +20,10 @@ class Reservasi extends Model
     return $this->table('tbl_reservasi')->like('nama_tamu', $keyword)->orLike('tgl_cek_in', $keyword);
     }
 
-    public function cari($keyword, $data){
-        $data =['cek in'];
-        return $this->table('tbl_reservasi')->like('email_pemesan', $keyword, 'AND', 'status', $data);
+    public function cari($keyword){
+        $this->table('tbl_reservasi')->like('email_pemesan', $keyword);
+        $this->table('tbl_reservasi')->like('status', 'cek in');
+        return $this->table('tbl_reservasi')->find();
         }
     
 

@@ -63,7 +63,7 @@
     </div>
 
   </header><!-- End Header -->
-  <main id="main">
+  <main id="main" style="min-height : 500px">
 
   <?= $this->renderSection('content') ?>
   </main>

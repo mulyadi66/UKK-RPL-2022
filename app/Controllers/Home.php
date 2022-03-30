@@ -17,10 +17,8 @@ class Home extends BaseController{
     }
 
     public function cari(){
-        $data =['cek in'];
         $keyword = $this->request->getVar('keyword');
-        $datatamu = $this->reservasi->cari($keyword, $data);
-        // $datatamu = $this->reservasi->where('email_pemesan', $keyword)->findAll();
+        $datatamu = $this->reservasi->cari($keyword);
         $data = [
             'title'=> 'Berikut ini daftar Tamu yang sudah terdaftar dalam database.',
             'tamu' => $datatamu
@@ -73,6 +71,10 @@ class Home extends BaseController{
     }
 
     public function invoice($idreservasi){
+        $this->reservasi->select('tbl_reservasi.id_reservasi, tbl_reservasi.nama_pemesan, tbl_reservasi.email_pemesan, 
+                                tbl_reservasi.tgl_cek_in, tbl_reservasi.tgl_cek_out, tbl_fasilitas_kamar.tipe_kamar, 
+                                tbl_kamar.tarif, tbl_reservasi.jumlah_kamar_dipensan, 
+                                (datediff(tbl_reservasi.tgl_cek_out, tbl_reservasi.tgl_cek_in)*tbl_reservasi.jumlah_kamar_dipensan* tbl_kamar.tarif)as total_bayar');
         $this->reservasi->join('tbl_kamar', 'tbl_kamar.id_kamar=tbl_reservasi.id_kamar');
         $this->reservasi->join('tbl_fasilitas_kamar','tbl_fasilitas_kamar.id_fasilitas=tbl_kamar.id_fasilitas');
 		$data['transaksi'] = $this->reservasi->find($idreservasi);

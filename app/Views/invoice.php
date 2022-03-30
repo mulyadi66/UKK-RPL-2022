@@ -42,7 +42,7 @@
                 <td><?= $transaksi['tipe_kamar'] ?></td>
 				<td><?= "Rp " . number_format($transaksi['tarif'],2,',','.')  ?></td>
 				<td><?= $transaksi['jumlah_kamar_dipensan'] ?></td>
-				<td><?= "Rp " . number_format($transaksi['tarif']*$transaksi['jumlah_kamar_dipensan'],2,',','.')  ?></td>
+				<td><?= "Rp " . number_format($transaksi['total_bayar'],2,',','.')  ?></td>
 			</tr>
 		</table>
 	</body>
