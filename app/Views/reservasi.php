@@ -57,12 +57,7 @@
               <div class="col-md-12 form-group">
                 <label for="jml" class="font-weight-bold text-black">Jumlah Kamar</label>
                 <div class="field-icon-wrap">
-                  <select name="jml_kmr" id="jml" class="form-control">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4+</option>
-                  </select>
+                  <input type="number" id="jml" name="jml_kmr" min="1" max="5" class="form-control">
                 </div>
               </div>
             </div>

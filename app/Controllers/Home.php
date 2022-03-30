@@ -73,7 +73,8 @@ class Home extends BaseController{
     public function invoice($idreservasi){
         $this->reservasi->select('tbl_reservasi.id_reservasi, tbl_reservasi.nama_pemesan, tbl_reservasi.email_pemesan, 
                                 tbl_reservasi.tgl_cek_in, tbl_reservasi.tgl_cek_out, tbl_fasilitas_kamar.tipe_kamar, 
-                                tbl_kamar.tarif, tbl_reservasi.jumlah_kamar_dipensan, 
+                                tbl_kamar.tarif, tbl_reservasi.jumlah_kamar_dipensan,
+                                (datediff(tbl_reservasi.tgl_cek_out, tbl_reservasi.tgl_cek_in))as jml_hari, 
                                 (datediff(tbl_reservasi.tgl_cek_out, tbl_reservasi.tgl_cek_in)*tbl_reservasi.jumlah_kamar_dipensan* tbl_kamar.tarif)as total_bayar');
         $this->reservasi->join('tbl_kamar', 'tbl_kamar.id_kamar=tbl_reservasi.id_kamar');
         $this->reservasi->join('tbl_fasilitas_kamar','tbl_fasilitas_kamar.id_fasilitas=tbl_kamar.id_fasilitas');

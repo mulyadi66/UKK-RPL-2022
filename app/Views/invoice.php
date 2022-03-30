@@ -29,18 +29,20 @@
 			Pemesan : <?= $transaksi['nama_pemesan'] ?><br>
 			Email : <?= $transaksi['email_pemesan'] ?><br>
 			Transaksi No : <?= $transaksi['id_reservasi'] ?><br>
-			Tanggal : <?= date('Y-m-d', strtotime($transaksi['tgl_cek_in'])) ?><br> 
+			Tanggal : <?= date('d-m-Y', strtotime($transaksi['tgl_cek_in'])) ?><br> 
 		</p>
 		<table cellpadding="6" >
 			<tr>
 				<th><strong>Tipe Kamar</strong></th>
 				<th><strong>Harga permalam</strong></th>
-				<th><strong>Jumlah</strong></th>
+				<th><strong>Jumlah hari</strong></th>
+				<th><strong>Jumlah kamar</strong></th>
 				<th><strong>Total Harga</strong></th>
 			</tr>
 			<tr>
                 <td><?= $transaksi['tipe_kamar'] ?></td>
 				<td><?= "Rp " . number_format($transaksi['tarif'],2,',','.')  ?></td>
+				<td><?= $transaksi['jml_hari'] ?></td>
 				<td><?= $transaksi['jumlah_kamar_dipensan'] ?></td>
 				<td><?= "Rp " . number_format($transaksi['total_bayar'],2,',','.')  ?></td>
 			</tr>
