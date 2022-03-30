@@ -6,7 +6,7 @@
       <h2>I'm a professional illustrator from San Francisco</h2>
       <form action="/cek" method="post" >
         <div>
-        <input type="text" class="form" placeholder="Masukan Email Tamu" name="keyword">
+        <input type="text" class="form" placeholder="Masukan Email Tamu" name="keyword" id="keyword">
         <button class="btn-about" type="submit" id="submit">Cek Reservasi</button>
         </div>
         <!-- <?php

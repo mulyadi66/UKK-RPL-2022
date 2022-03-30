@@ -17,8 +17,10 @@ class Home extends BaseController{
     }
 
     public function cari(){
+        $data =['cek in'];
         $keyword = $this->request->getVar('keyword');
-        $datatamu = $this->reservasi->where('email_pemesan', $keyword)->findAll();
+        $datatamu = $this->reservasi->cari($keyword, $data);
+        // $datatamu = $this->reservasi->where('email_pemesan', $keyword)->findAll();
         $data = [
             'title'=> 'Berikut ini daftar Tamu yang sudah terdaftar dalam database.',
             'tamu' => $datatamu
@@ -78,7 +80,7 @@ class Home extends BaseController{
 		$pdf = new TCPDF('L', PDF_UNIT, 'A5', true, 'UTF-8', false);
 
 		$pdf->SetCreator(PDF_CREATOR);
-		$pdf->SetAuthor('Dea Venditama');
+		$pdf->SetAuthor('Hotel SCADA');
 		$pdf->SetTitle('Invoice');
 		$pdf->SetSubject('Invoice');
 
