@@ -22,7 +22,7 @@ class Reservasi extends Model
 
     public function cari($keyword){
         $this->table('tbl_reservasi')->like('email_pemesan', $keyword);
-        $this->table('tbl_reservasi')->like('status', 'cek in');
+        $this->table('tbl_reservasi')->like('status', 'proses');
         return $this->table('tbl_reservasi')->find();
         }
     

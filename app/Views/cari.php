@@ -4,6 +4,7 @@
 <div class="row">
 <h2><?=$title?></h2>
 </div>
+
 <table class="table table-sm table-hovered">
 <thead class="bg-light text-center">
 <tr>
@@ -18,6 +19,7 @@
 </thead>
 <tbody  class="bg-light text-center">
 <?php
+if(count($tamu)>0){
 $htmlData=null;
 foreach ($tamu as $row){
 $htmlData ='<tr>';
@@ -32,6 +34,9 @@ $htmlData .='<a href="/inv/'.$row['id_reservasi'].'" class="btn btn-info btn-sm 
 $htmlData .='</td>';
 $htmlData .='</tr>';
 echo $htmlData;
+}
+} else{
+echo '<tr><td colspan="7">DATA TIDAK DITEMUKAN</td></tr>';
 }
 ?>
 </tbody>
